@@ -1,0 +1,43 @@
+.cab{   
+    min-height: 120px;
+    background-color:rgb(89, 29, 146) ;
+    border: 8px solid blueviolet;
+}
+
+.cab a{
+    color: black;
+    text-decoration: underline;
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.cab li :hover{
+    color: rgb(132, 0, 255);
+    transition: 0.3s;
+}
+
+.cab ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+}
+
+.cab li{
+    margin-top: 40px;
+}
+
+.footer{
+    min-height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color:rgb(89, 29, 146) ;
+    border: 8px solid blueviolet;
+}
+
+.footer p{
+    font-size: 18px;
+}
